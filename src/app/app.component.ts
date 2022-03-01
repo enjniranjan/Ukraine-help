@@ -38,6 +38,6 @@ export class AppComponent {
     this.getUserLocation();
     var name = formData['name'];
     console.log(formData);
-    console.log(this.lng + 'and' + this.lat);
+    alert('Latitude: ' + this.lat + '\nLongitude:' + this.lng);
   }
 }
